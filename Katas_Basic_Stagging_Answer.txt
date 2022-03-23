@@ -1,0 +1,41 @@
+Q- What's the content of file.txt?
+Ans- 1    
+Overwrite the content in file.txt: echo 2 > file.txt to change the state of your file in the working directory (or sc file.txt '2' in PowerShell)
+Q- What does git diff tell you?
+Ans- Changes not staged for commit:
+    modified: file.txt
+Q- What does git diff --staged tell you? why is this blank?
+Ans- Nothing
+Run git add file.txt to stage your changes from the working directory.
+Q- What does git diff tell you?
+Ans- showing me what changes I have done.
+What does git diff --staged tell you?
+Ans- This command is used to show changes to file in staged area.
+Overwrite the content in file.txt: echo 3 > file.txt to change the state of your file in the working directory (or sc file.txt '3' in PowerShell).
+Q- What does git diff tell you?
+Ans- Changes not staged for commit:
+    modified: file.txt
+Q- What does git diff --staged tell you?
+Ans- Nothing
+Q- Explain what is happening
+Ans- Actually when I was using diff command with --staged this will show me the
+changes which I made in staged area otherwise not.
+Run git status and observe that file.txt are present twice in the output.
+Run git restore --staged file.txt to unstage the change
+What does git status tell you now?
+Ans- Changes not staged for commit:
+    modified: file.txt
+Stage the change and make a commit
+What does the log look like?
+Ans- git log showing comments which I have done before.
+Overwrite the content in file.txt: echo 4 > file.txt (or sc file.txt '4' in PowerShell)
+What is the content of file.txt?
+Ans- 4
+What does git status tell us?
+Ans- Changes not staged for commit:
+    modified: file.txt
+Run git restore file.txt
+Q- What is the content of file.txt?
+Ans- 4
+What does git status tell us?
+Ans- The git status command displays the state of the working directory and the staging area.
