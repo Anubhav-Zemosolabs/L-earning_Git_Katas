@@ -1,2 +1,5 @@
+<<<<<<< HEAD
 I am Anubhav
-I am from Lucknow
+I am from Allahabad
+
+>>>>>>> merge-conflict-branch1
