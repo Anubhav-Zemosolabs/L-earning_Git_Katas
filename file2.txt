@@ -1,11 +1,5 @@
-<<<<<<< HEAD
 
 I am Anubhav
 I am from Lucknow
 
-=======
 
-I am Anuj
-I am from Lucknow
-
->>>>>>> Mergesort-Impl
